@@ -1,0 +1,5 @@
+<div class="container1" id="content">
+	<div arrow-div id="contentInside" class="contentInside" *ngFor="let divData of dataSource;index as i"
+		[style.z-index]="divData.id">{{divData.id}}</div>
+</div>
+<button (click)='onAddData()'>Add</button>

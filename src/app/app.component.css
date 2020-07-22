@@ -1,0 +1,17 @@
+#content {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+#contentInside {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px #ccc;
+  margin: 10px;
+}
+#contentInside:focus {
+  background: yellowgreen;
+  outline: 2px solid blue;
+}
